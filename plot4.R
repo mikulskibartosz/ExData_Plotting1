@@ -53,7 +53,7 @@ lines(dataWithinTimeRange$DateTime, dataWithinTimeRange$Sub_metering_2, col = "r
 lines(dataWithinTimeRange$DateTime, dataWithinTimeRange$Sub_metering_3, col = "blue")
 legend("topright", col = c("black", "red", "blue"), lty = c(1), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
-# Forth plot
+# Fourth plot
 plot(
   dataWithinTimeRange$DateTime, dataWithinTimeRange$Global_reactive_power,
   main = "",
